@@ -1,10 +1,12 @@
 #pragma once
 #include <vector>
 
-vector<int> makeVector(int n);
+void printVector(std::vector<int> v);
 
-vector<int> goodVibes(const& vector<int> v);
+std::vector<int> makeVector(int n);
 
-void gogeta(vector<int> &goku, vector<int> &vegeta);
+std::vector<int> goodVibes(const std::vector<int> v);
 
-vector<int> sumPairWise(const vector<int> &v1, const vector<int> &v2);
+void gogeta(std::vector<int> &goku, std::vector<int> &vegeta);
+
+std::vector<int> sumPairWise(const std::vector<int> &v1, const std::vector<int> &v2);
